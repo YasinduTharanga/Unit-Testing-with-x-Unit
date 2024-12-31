@@ -33,5 +33,18 @@ namespace UnitTestingDemo
             }
             return 10;
         }
+
+        public Student GetStudentByCourseId(int courseId)
+        {
+            if(courseId == 100)
+            {
+                return new CSharpStudent();
+            }
+            else
+            {
+                return new JavaStudent();
+            }
+
+        }
     }
 }
