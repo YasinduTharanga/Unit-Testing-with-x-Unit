@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnitTestingDemo.Test.Unit
 {
-    public class CalculatorServiceTest
+    public class CalculatorServiceTestAssertNumerics
     {
 
         [Fact]

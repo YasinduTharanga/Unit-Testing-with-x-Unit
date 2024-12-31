@@ -17,5 +17,11 @@ namespace UnitTestingDemo
         {
             return a + b;
         }
+
+        public List<int> GetRandomNumbers()
+        {
+            var ranomNumbers = new int[] { 1, 13, 2, 43, 4, 85, 68,7, 98};
+            return ranomNumbers.ToList();
+        }
     }
 }
