@@ -23,5 +23,14 @@ namespace UnitTestingDemo
             var ranomNumbers = new int[] { 1, 13, 2, 43, 4, 85, 68,7, 98};
             return ranomNumbers.ToList();
         }
+
+        public bool IsOdd(int number)
+        {
+            if (number % 2 == 1)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
